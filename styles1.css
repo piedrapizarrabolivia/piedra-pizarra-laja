@@ -1,0 +1,73 @@
+
+body {font-family: 'Titillium Web', sans-serif;}
+
+html {scroll-behavior: smooth;}
+  
+header{margin-top:10px;}
+
+
+.appWhatsapp {/*conrenensor*/
+    position: fixed;  /*posiscion fija*/
+    right: 26px;     /*margen deredha*/
+    bottom: 100px;   /*margen abajo*/
+    width: 60px;    /*para ancho de imagen*/
+    z-index: 1000;/*para sobreponer sobre otro*/
+}
+.appWhatsapp img{
+    width: 100%;/* ancho dentro  dentro del contenendor*/
+    height: auto; /*alto automatico se ajusta*/
+}
+
+
+.mapapl {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+.mapapl iframe{
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.portada{
+    width: 100%;
+    margin: auto;
+    background: url('pizarraoxidadaprincipal.jpg') ;
+     height: 550px;
+     background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sec1{
+    width: 85%;
+    margin: auto;
+padding: 30px;
+    
+}
+
+.sec1 h1{
+    text-align: center;
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 40px;
+    padding-top: 15%;
+
+}
+.conte{
+    
+    text-align: center;
+    padding: auto;
+
+}
+
+.conte p{
+    text-align: center;
+    color: rgb(233, 235, 236);
+    
+    font-weight: bold;
+    margin: 1em 0;
+}
